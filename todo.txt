@@ -1,0 +1,15 @@
+Pages to finish
+
+pumpkinpatch
+familyfarm
+contact
+personalization
+fieldtrips
+scheduledvisits
+openfarm
+faq
+
+Things to implement
+
+bookeo scheduling
+personalization e-commerce
