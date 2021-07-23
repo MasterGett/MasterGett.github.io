@@ -1,7 +1,7 @@
 body{
     width:100%;
     margin:auto;
-    background-color:#d4ceac;
+    background-color:#9fb175;
 }
 
 @font-face {
@@ -140,12 +140,13 @@ a:hover{
 
     #mainlogo{
         color:#dc8b39;
-        background:url(img/pumpkin.jpg);
+        background:url(img/unnamed4.jpg);
         background-repeat:no-repeat;
         background-position:right center;
         background-size:cover;
         text-align: center;
-        padding-right:30%;
+        padding-right:45%;
+        padding-top:25px;
         border-top:3px solid #674c28;
         border-bottom:3px solid #674c28;
         text-shadow:1px 1px #674c28;
