@@ -156,6 +156,7 @@ a:hover{
     #mainlogo h1{
         font-size:25px;
         font-family:mainlogo;
+        margin-bottom:10px;
     }
     
     #mainlogo h3{
