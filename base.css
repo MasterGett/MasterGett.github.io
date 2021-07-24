@@ -184,6 +184,13 @@ a:hover{
         font-size:90%;
     }
 
+    #content-right img{
+        width:100%;
+        border:3px solid#674c28;
+        margin:auto;
+        margin-bottom:0px;
+    }
+
     
     #content-left{
         width:100%;
@@ -210,6 +217,13 @@ a:hover{
         margin:auto;
         width:85%;
         font-size:90%;
+    }
+
+    .content2 img{
+        width:80%;
+        border:3px solid#674c28;
+        margin:auto;
+        margin-bottom:0px;
     }
 
     .content2 h2{
@@ -411,6 +425,13 @@ a{
     text-decoration:none;
 }
 
+.content2 img{
+    width:80%;
+    border:3px solid#674c28;
+    margin:auto;
+    margin-bottom:0px;
+}
+
 #content3{
     color:#674c28;
     display: grid;
@@ -442,6 +463,10 @@ a{
     margin-top:25px;
     margin-bottom:8px;
     text-align:center;
+}
+#split{
+    grid-template-columns: 48% 48%;
+    column-gap:4%;
 }
 }
 
@@ -1032,8 +1057,4 @@ a{
         margin-bottom:8px;
         text-align:center;
     } 
-}
-#split{
-    grid-template-columns: 48% 48%;
-    column-gap:4%;
 }
