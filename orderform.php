@@ -1,0 +1,23 @@
+<?php $name = $_POST['name'];
+$email = $_POST['email'];
+$pp1 = $_POST['pp1'];
+$size1 = $_POST['size1'];
+$pp2 = $_POST['pp2'];
+$size2 = $_POST['size2'];
+$pp3 = $_POST['pp3'];
+$size3 = $_POST['size3'];
+$pp4 = $_POST['pp4'];
+$size4 = $_POST['size4'];
+$pp5 = $_POST['pp5'];
+$size5 = $_POST['size5'];
+$pp6 = $_POST['pp6'];
+$size6 = $_POST['size6'];
+$notes = $_POST['notes'];
+$payment = $_POST['payment'];
+$formcontent="From: $name \n Message: $message";
+$recipient = "gablossey@live.com";
+$subject = "Personalized Pumpkin Order";
+$mailheader = "From: $email \r\n";
+mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");
+echo "Thank You for placing your order!". " -" . "<a href='form.html' style='text-decoration:none;color:#ff0099;'> Return Home</a>";
+?>

@@ -35,66 +35,72 @@
             
         </div>
         <div class='content2'>
-            <form>
+            <form action="../orderform.php" method="POST">
+
                 <b>Personalization Order Form</b><br><br>
-            First Name<br><input type="text"><br><br>
-            Last Name<br><input type="text"><br><br>
-            Email Address<br><input type="email" style='width:250px'><br><br>
-            Personalization / Size of Pumpkin<br><input type="text"><select>
-                <option>Medium</option>
-                <option>Large</option>
-                <option>Giant</option>
+
+            <label name='name'>Name (needed to confirm order at pickup)</label><br><input type="text" name='name'><br><br>
+
+            <label name='mail'>Email Address (only for contact purposes, we never share personal information!)</label><br><input type="email" style='width:250px' name='email'><br><br>
+
+            Personalization / Size of Pumpkin<br>
+
+            <input type="text" name='pp1'><select name='size1' size='1'>
+                <option value='none'>Select One</option>
+                <option value='med'>Medium</option>
+                <option value='lrg'>Large</option>
+                <option value='gnt'>Giant</option>
                 </select>
                 <br>
-                <input type="text"><select>
-                    <option>Medium</option>
-                    <option>Large</option>
-                    <option>Giant</option>
+
+                <input type="text" name=pp2><select name='size2' size='1'>
+                    <option value='none'>Select One</option>
+                    <option value='med'>Medium</option>
+                    <option value='lrg'>Large</option>
+                    <option value='gnt'>Giant</option>
                     </select>
                     <br>
-                    <input type="text"><select>
-                        <option>Medium</option>
-                        <option>Large</option>
-                        <option>Giant</option>
+
+                    <input type="text" name=pp3><select name='size3' size='1'>
+                        <option value='none'>Select One</option>
+                        <option value='med'>Medium</option>
+                        <option value='lrg'>Large</option>
+                        <option value='gnt'>Giant</option>
                         </select>
                         <br>
-                        <input type="text"><select>
-                            <option>Medium</option>
-                            <option>Large</option>
-                            <option>Giant</option>
+
+                        <input type="text" name=pp4><select name='size4' size='1'>
+                            <option value='none'>Select One</option>
+                            <option value='med'>Medium</option>
+                            <option value='lrg'>Large</option>
+                            <option value='gnt'>Giant</option>
                             </select>
                             <br>
-                            <input type="text"><select>
-                                <option>Medium</option>
-                                <option>Large</option>
-                                <option>Giant</option>
+
+                            <input type="text" name=pp5><select name='size5' size='1'>
+                                <option value='none'>Select One</option>
+                                <option value='med'>Medium</option>
+                                <option value='lrg'>Large</option>
+                                <option value='gnt'>Giant</option>
                                 </select>
                                 <br>
-                                <input type="text"><select>
-                                    <option>Medium</option>
-                                    <option>Large</option>
-                                    <option>Giant</option>
+
+                                <input type="text" name=pp6><select name='size6' size='1'>
+                                    <option value='none'>Select One</option>
+                                    <option value='med'>Medium</option>
+                                    <option value='lrg'>Large</option>
+                                    <option value='gnt'>Giant</option>
                                     </select>
                                     <br>
-                                    <input type="text"><select>
-                                        <option>Medium</option>
-                                        <option>Large</option>
-                                        <option>Giant</option>
-                                        </select>
-                                        <br>
-                                        <input type="text"><select>
-                                            <option>Medium</option>
-                                            <option>Large</option>
-                                            <option>Giant</option>
-                                            </select>
-                                            <br><br>
-Notes<br><textarea rows='5' style='width:250px'></textarea><br><br>
-Personalization Payment Options<br>
-<input type="radio" name='pay' value='paypal'>Paypal<br>
 
-<input type="radio" name='pay' value='postal'>Mail to PO Box<br><br>
+               <br>
+Notes/Details<br><textarea rows='5' style='width:250px' name='notes'>Any Additional Information?</textarea><br><br>
+Payment:<br>
+<select name='payment'><option name='pay' value='paypal'>Paypal</option><br>
 
-            </form><button style='width:120px; height:25px;'>Place Order</button>
+<option type="radio" name='pay' value='postal'>Pay by Mail</option></select><br><br>
+
+           <button type="submit" value='send'>Submit Your Order</button></form>
         </div>
         <h4 id='signature'>This Webpage was Designed and Coded by <div style='font-family: signature;'>MasterGett Development</div></h4>
     </body>
